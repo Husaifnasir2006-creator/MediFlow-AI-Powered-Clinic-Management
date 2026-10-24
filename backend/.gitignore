@@ -1,0 +1,14 @@
+# Backend Local Environment & Credentials
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# TypeScript Build Artifacts
+dist/
+
+# Test & Process Logs
+*.log
+npm-debug.log*

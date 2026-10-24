@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production Builds
+dist/
+build/
+
+# Logs & Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Sensitive Credentials & Keys
+*.pem
+*.key
+credentials.json
+service-account.json
+
+# Editor Directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+
+# Additional environment files
+.env.*
+!.env.example
+
+# Frontend build output
+frontend/dist/
+
+# Backend build output
+backend/dist/
+
+# Coverage reports
+coverage/

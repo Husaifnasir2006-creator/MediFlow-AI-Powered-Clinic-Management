@@ -1,0 +1,22 @@
+{
+  "name": "mediflow",
+  "version": "1.0.0",
+  "description": "MediFlow — AI-Powered Clinic Management SaaS Platform for UK NHS and Private Medical Practices",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "test": "npm --prefix backend test"
+  },
+  "keywords": [
+    "clinic-management",
+    "healthcare-saas",
+    "webrtc-telemedicine",
+    "nhs",
+    "cqc",
+    "no-show-prediction",
+    "supabase-rls"
+  ],
+  "author": "MediFlow Team",
+  "license": "Proprietary"
+}
